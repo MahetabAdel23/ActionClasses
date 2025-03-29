@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Element Suite For HoverTests" verbose="1">
+    <test name="Element Tests">
+
+        <classes>
+            <class name="com.automationpractciestest.tests.ElementsTests">
+                <methods>
+                    <include name="HoverTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
